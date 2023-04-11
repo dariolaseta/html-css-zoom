@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background-color: black;
     color: white;
@@ -18,12 +25,18 @@ button{
 }
 
 header section.buttons{
-    margin-top: 10px;
+    margin: 10px 7px 0 0;
     text-align: right;
 }
 
 .user-icon{
     position: relative;
+    margin-right: .5rem;
+    overflow-y: auto;
+}
+
+.users{
+    margin: 5rem;
 }
 
 .nickname{
