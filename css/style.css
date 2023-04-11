@@ -6,6 +6,7 @@
 
 body{
     background-color: black;
+    color: white;
 }
 
 button{
@@ -19,4 +20,16 @@ button{
 header section.buttons{
     margin-top: 10px;
     text-align: right;
+}
+
+.user-icon{
+    position: relative;
+}
+
+.nickname{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    background-color: #65727c;
+    padding: .35rem;
 }
