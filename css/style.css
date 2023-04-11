@@ -46,3 +46,32 @@ header section.buttons{
     background-color: #65727c;
     padding: .35rem;
 }
+
+footer{
+    background-color: #222222;
+}
+
+.left-footer{
+    width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+}
+
+footer div.icon i{
+    font-size: 2rem;
+}
+
+footer div.icon i.fa-angle-up{
+    font-size: 1rem;
+    align-self: center;
+}
+
+footer section div.icon{
+    display: flex;
+    flex-direction: column;
+    padding: .75rem .5rem;
+    font-size: 0.8rem;
+    justify-content: center;
+}
